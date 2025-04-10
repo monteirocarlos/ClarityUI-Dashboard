@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ClarityUI Dashboard</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/style.css">
+
+  </head>
+  <body>
+    <div class="hamburger-menu">
+      <i class="fa fa-bars"></i>
+    </div>
+
+    <div class="overlay"></div>
+
+    <header>
+      <div class="main-header">
+        <div class="logo-container">
+          <span class="logo">ClarityUI</span>
+        </div>
+        <div class="search-container">
+          <i class="fa fa-search"></i>
+          <input type="text" placeholder="Type to search" />
+        </div>
+        <div class="user-actions">
+          <a href="#" class="notification">
+            <i class="fa fa-bell"></i>
+          </a>
+          <a href="#" class="settings">
+            <i class="fa fa-cog"></i>
+          </a>
+          <div class="user-profile">
+            <img
+              src="caminho/para/sua/imagem-de-perfil.jpg"
+              alt="Foto de Perfil"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <aside class="sidebar">
+        <nav class="sidebar-nav">
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-home"></i> Dashboard</a>
+            </li>
+          </ul>
+          <div class="menu-section">Analytics</div>
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-chart-bar"></i> Performance</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-sun"></i> Hotjar
+                <span class="badge new">NEW</span></a
+              >
+            </li>
+          </ul>
+          <div class="menu-section">Support</div>
+          <ul>
+            <li>
+              <a href="#"
+                ><i class="fa fa-ticket-alt"></i> Tickets
+                <span class="badge">15</span></a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-user-tie"></i> Agents</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-users"></i> Customers</a>
+            </li>
+          </ul>
+          <div class="menu-section">Shop</div>
+          <ul>
+            <li>
+              <a href="#"><i class="fa fa-folder-open"></i> Products</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-bell"></i> Orders</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-chart-line"></i> Reports</a>
+            </li>
+          </ul>
+          <ul class="sidebar-bottom">
+            <li>
+              <a href="#"><i class="fa fa-cog"></i> Settings</a>
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-sign-out-alt"></i> Logout</a>
+            </li>
+          </ul>
+        </nav>
+      </aside>
+
+      <main class="main-content">
+        <div class="main-header-actions">
+          <div class="entries-dropdown">
+            <span>Show</span>
+            <select>
+              <option value="10">10</option>
+              <option value="25">25</option>
+              <option value="50">50</option>
+              <option value="100">100</option>
+            </select>
+            <span>entries</span>
+          </div>
+          <button class="add-customer-btn">
+            <i class="fa fa-plus"></i> Add Customer
+          </button>
+        </div>
+
+        <div class="table-container">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Tracking ID</th>
+                <th>Product</th>
+                <th>Customer</th>
+                <th>Date</th>
+                <th>Amount</th>
+                <th>Payment Mode</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td data-label="Tracking ID"># 20462</td>
+                <td data-label="Product">Hat</td>
+                <td data-label="Customer">Matt Dickerson</td>
+                <td data-label="Date">13/05/2022</td>
+                <td data-label="Amount">$ 4.95</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status delivered">Delivered</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 18933</td>
+                <td data-label="Product">Laptop</td>
+                <td data-label="Customer">Wiktoria</td>
+                <td data-label="Date">22/05/2022</td>
+                <td data-label="Amount">$ 8.95</td>
+                <td data-label="Payment Mode">Cash on Delivery</td>
+                <td data-label="Status" class="status delivered">Delivered</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 45169</td>
+                <td data-label="Product">Phone</td>
+                <td data-label="Customer">Trixie Byrd</td>
+                <td data-label="Date">15/06/2022</td>
+                <td data-label="Amount">$ 1,149.95</td>
+                <td data-label="Payment Mode">Cash on Delivery</td>
+                <td data-label="Status" class="status process">Process</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 34304</td>
+                <td data-label="Product">Bag</td>
+                <td data-label="Customer">Brad Mason</td>
+                <td data-label="Date">06/09/2022</td>
+                <td data-label="Amount">$ 899.95</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status process">Process</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 17188</td>
+                <td data-label="Product">Headset</td>
+                <td data-label="Customer">Sanderson</td>
+                <td data-label="Date">25/09/2022</td>
+                <td data-label="Amount">$ 22.95</td>
+                <td data-label="Payment Mode">Cash on Delivery</td>
+                <td data-label="Status" class="status canceled">Canceled</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 73003</td>
+                <td data-label="Product">Mouse</td>
+                <td data-label="Customer">Jun Redfern</td>
+                <td data-label="Date">04/10/2022</td>
+                <td data-label="Amount">$ 54.95</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status delivered">Delivered</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 58825</td>
+                <td data-label="Product">Clock</td>
+                <td data-label="Customer">Miriam Kidd</td>
+                <td data-label="Date">17/10/2022</td>
+                <td data-label="Amount">$ 174.95</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status delivered">Delivered</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 44122</td>
+                <td data-label="Product">T - shirt</td>
+                <td data-label="Customer">Dominic</td>
+                <td data-label="Date">24/10/2022</td>
+                <td data-label="Amount">$ 249.95</td>
+                <td data-label="Payment Mode">Cash on Delivery</td>
+                <td data-label="Status" class="status delivered">Delivered</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 89094</td>
+                <td data-label="Product">Monitor</td>
+                <td data-label="Customer">Shanice</td>
+                <td data-label="Date">01/11/2022</td>
+                <td data-label="Amount">$ 899.95</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status canceled">Canceled</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+              <tr>
+                <td data-label="Tracking ID"># 85252</td>
+                <td data-label="Product">Keyboard</td>
+                <td data-label="Customer">Poppy - Rose</td>
+                <td data-label="Date">22/11/2022</td>
+                <td data-label="Amount">$ 6.948</td>
+                <td data-label="Payment Mode">Tranfer Bank</td>
+                <td data-label="Status" class="status process">Process</td>
+                <td data-label="Action" class="actions">
+                  <a href="#"><i class="fa fa-edit"></i></a>
+                  <a href="#"><i class="fa fa-trash"></i></a>
+                </td>
+              </tr>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="8">
+                  <div class="pagination">
+                    <button>Previous</button>
+                    <div class="page-numbers">
+                      <button class="active">1</button>
+                      <button>2</button>
+                      <button>3</button>
+                    </div>
+                    <button>Next</button>
+                  </div>
+                </td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal-overlay" id="editModal">
+      <div class="modal-container">
+        <button class="close-btn">&times;</button>
+        <div class="modal">
+          <div class="modal-body">
+            <div class="modal-field status-field">
+              <label>Status:</label>
+              <select class="field-value">
+                <option value="delivered">Delivered</option>
+                <option value="process">Process</option>
+                <option value="canceled">Canceled</option>
+              </select>
+            </div>
+
+            <div class="modal-field">
+              <label>Product:</label>
+              <div class="field-value" id="modalProduct">Hat</div>
+            </div>
+
+            <div class="modal-field">
+              <label>Customer:</label>
+              <div class="field-value" id="modalCustomer">Matt Dickerson</div>
+            </div>
+
+            <div class="inline-fields">
+              <div class="modal-field">
+                <label>Date:</label>
+                <div class="field-value" id="modalDate">13/05/2022</div>
+              </div>
+              <div class="modal-field">
+                <label>Amount:</label>
+                <div class="field-value" id="modalAmount">$4.95</div>
+              </div>
+            </div>
+
+            <div class="modal-field">
+              <label>Payment Mode:</label>
+              <div class="field-value" id="modalPaymentMode">Tranfer Bank</div>
+            </div>
+          </div>
+          <div class="modal-actions">
+            <button class="cancel-btn">Cancel</button>
+            <button class="apply-btn">Apply</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="./js/script"></script>
+  </body>
+</html>
