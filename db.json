@@ -1,0 +1,104 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "trackingId": "#20462",
+      "product": "Hat",
+      "customer": "Matt Dickerson",
+      "date": "13/05/2022",
+      "amount": "$4.95",
+      "paymentMode": "Transfer Bank",
+      "status": "delivered"
+    },
+    {
+      "id": 2,
+      "trackingId": "#18933",
+      "product": "Laptop",
+      "customer": "Wiktoria",
+      "date": "22/05/2022",
+      "amount": "$8.95",
+      "paymentMode": "Cash on Delivery",
+      "status": "delivered"
+    },
+    {
+      "id": 3,
+      "trackingId": "#45169",
+      "product": "Phone",
+      "customer": "Trixie Byrd",
+      "date": "15/06/2022",
+      "amount": "$1149.95",
+      "paymentMode": "Cash on Delivery",
+      "status": "process"
+    },
+    {
+      "id": 4,
+      "trackingId": "#34304",
+      "product": "Bag",
+      "customer": "Brad Mason",
+      "date": "06/09/2022",
+      "amount": "$899.95",
+      "paymentMode": "Transfer Bank",
+      "status": "process"
+    },
+    {
+      "id": 5,
+      "trackingId": "#17188",
+      "product": "Headset",
+      "customer": "Sanderson",
+      "date": "25/09/2022",
+      "amount": "$22.95",
+      "paymentMode": "Cash on Delivery",
+      "status": "canceled"
+    },
+    {
+      "id": 6,
+      "trackingId": "#73003",
+      "product": "Mouse",
+      "customer": "Jun Redfern",
+      "date": "04/10/2022",
+      "amount": "$54.95",
+      "paymentMode": "Transfer Bank",
+      "status": "delivered"
+    },
+    {
+      "id": 7,
+      "trackingId": "#58825",
+      "product": "Clock",
+      "customer": "Miriam Kidd",
+      "date": "17/10/2022",
+      "amount": "$174.95",
+      "paymentMode": "Transfer Bank",
+      "status": "delivered"
+    },
+    {
+      "id": 8,
+      "trackingId": "#44122",
+      "product": "T-shirt",
+      "customer": "Dominic",
+      "date": "24/10/2022",
+      "amount": "$249.95",
+      "paymentMode": "Cash on Delivery",
+      "status": "delivered"
+    },
+    {
+      "id": 9,
+      "trackingId": "#89094",
+      "product": "Monitor",
+      "customer": "Shanice",
+      "date": "01/11/2022",
+      "amount": "$899.95",
+      "paymentMode": "Transfer Bank",
+      "status": "canceled"
+    },
+    {
+      "id": 10,
+      "trackingId": "#85252",
+      "product": "Keyboard",
+      "customer": "Poppy-Rose",
+      "date": "22/11/2022",
+      "amount": "$6.95",
+      "paymentMode": "Transfer Bank",
+      "status": "process"
+    }
+  ]
+}
