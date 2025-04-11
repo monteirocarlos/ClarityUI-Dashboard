@@ -109,9 +109,9 @@ export default {
 </script>
 
 <style>
-/* Estilos globais mantendo o design original */
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 #app {
   font-family: "Montserrat", sans-serif;
   height: auto;

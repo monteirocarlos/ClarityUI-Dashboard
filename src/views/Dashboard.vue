@@ -287,7 +287,7 @@ export default {
 </script>
 
 <style scoped>
-/* Estilos anteriores mantidos */
+
 .sortable {
   cursor: pointer;
   position: relative;
@@ -304,7 +304,6 @@ export default {
   font-size: 12px;
 }
 
-/* Outros estilos permanecem iguais */
 .dashboard-content {
   padding: 20px 0;
   background-color: #fff;

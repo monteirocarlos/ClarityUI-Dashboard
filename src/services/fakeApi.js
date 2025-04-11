@@ -1,5 +1,3 @@
-// Fake API implementation with local data
-
 const delay = (ms) => new Promise(resolve => setTimeout(resolve, ms))
 
 export default {

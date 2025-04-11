@@ -112,7 +112,6 @@ export default {
 </script>
 
 <style scoped>
-/* Adicione este estilo para o botão de fechar */
 .close-btn {
   position: absolute;
   top: 10px;
@@ -138,9 +137,8 @@ export default {
   transition: 0.3s;
 }
 
-/* Ajuste no modal-header para dar espaço ao botão X */
 .modal-header {
-  padding-right: 40px; /* Espaço para o botão X */
+  padding-right: 40px;
 }
 .modal-overlay {
   position: fixed;
